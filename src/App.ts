@@ -20,6 +20,7 @@ app.use('/our-api/routes',theAppRouter)
 
 // all errors passed along to here
 app.use(async (error: Error, req: Request, res: Response, next:NextFunction) => {
+    console.error(error.message)
     res.status(500).send(error.message)
 })
 

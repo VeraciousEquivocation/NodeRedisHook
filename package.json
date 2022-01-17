@@ -19,6 +19,7 @@
   "homepage": "https://github.com/VeraciousEquivocation/NodeRedisHook#readme",
   "dependencies": {
     "express": "^4.17.2",
+    "redis": "^4.0.2",
     "typescript": "^4.5.4"
   },
   "devDependencies": {
